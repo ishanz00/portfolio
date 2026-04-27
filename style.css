@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #05010a;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* PROFILE IMAGE FIX */
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid cyan;
+  box-shadow: 0 0 30px cyan;
+  object-fit: cover;
+}
+
+/* GLOW TEXT */
+.glow {
+  font-size: 50px;
+  text-shadow: 0 0 20px cyan;
+}
+
+.tag {
+  color: #aaa;
+}
+
+/* NAV */
+nav {
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  padding: 12px;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+/* CARD */
+.card {
+  margin: 30px;
+  padding: 40px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  border: 1px solid rgba(0,255,255,0.2);
+  text-align: center;
+}
+
+/* GRID */
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.box {
+  width: 160px;
+  height: 110px;
+  background: rgba(255,255,255,0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.box:hover {
+  transform: translateY(-10px) scale(1.1);
+  box-shadow: 0 0 25px cyan;
+}
+
+/* EDUCATION */
+.edu {
+  margin: 15px auto;
+  padding: 15px;
+  width: 60%;
+  border: 1px solid cyan;
+  border-radius: 10px;
+}
